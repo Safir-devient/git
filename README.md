@@ -1,15 +1,16 @@
 # Scraper voleb
-### O co jde v projektu?
-Tento skript umožňuje získat výsledky voleb pro konkrétní okres z volby.cz
-### Jak na to?
+### jak jsem dělal tento program polus jeho vysvětlení?
+Tento kod neboli skript vám umožňuje vypočítat volby a jejich počet v okreskách na volby.cz
+### můj myšlenkový pochod?
+  Program se spouští pomocí dvou parametrů, pomocí odkazu na volební stránku plus jejich okresy atd.  > python _cesta k programu_ _"odkaz"_ _soubor_
 
-  Program spustíš s dvěma parametry, odkaz na stránku volebního okresu a název výstupního souboru.
-> python _cesta k programu_ _"odkaz"_ _soubor_
-
-např:
+například:
 > python f:/scraper_voleb/main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8103" volby.csv
 
-### Příklady správných odkazů
+### odkazy
 - https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2104
 - https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=4&xnumnuts=3203
 - https://volby.cz/pls/ps2021/ps32?xjazyk=CZ&xkraj=13&xnumnuts=7204
+
+
+napadlo my to takhle udělat kvůli pár videím z youtubu kde dělali podobnou věc jako tuto jenom místo voleb tam bylo jídlo co přichází do restaurací a jejich kvalitu. 
